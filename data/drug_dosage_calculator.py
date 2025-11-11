@@ -1,11 +1,9 @@
-# unit converter
-
 def convert_dose(amount, from_unit, to_unit):
     """Convert between mcg, mg, and g."""
     from_unit = from_unit.lower().strip()
     to_unit = to_unit.lower().strip()
 
-    # Convert input amount to mg first
+
     if from_unit == "g":
         amount_mg = amount * 1000
     elif from_unit == "mg":
@@ -15,7 +13,7 @@ def convert_dose(amount, from_unit, to_unit):
     else:
         raise ValueError("Invalid unit. Use g, mg, or mcg.")
 
-    # Convert mg to target unit
+
     if to_unit == "g":
         return amount_mg / 1000
     elif to_unit == "mg":
@@ -26,7 +24,6 @@ def convert_dose(amount, from_unit, to_unit):
         raise ValueError("Invalid unit. Use g, mg, or mcg.")
 
 
-# Example interactive version:
 def main():
     print("Medication Unit Converter (mcg ↔ mg ↔ g)")
     print("------------------------------------------")
@@ -44,7 +41,7 @@ main()
 print()
 print()
 
-# drug dosage calculator
+
 
 print("Drug Dosage Calculator")
 print("--------------------------")
