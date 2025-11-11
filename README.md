@@ -67,8 +67,8 @@ Enter volume on hand (mL): 10
    ```
 
 ## Project File
-The main Python script is included in the `data` folder of this repository:  
-[data/drug_dosage_calculator.py](data/drug_dosage_calculator.py)
+The main Python script is included in the `scripts` folder of this repository:  
+[scripts/drug_dosage_calculator.py](scripts/drug_dosage_calculator.py)
 
 ## Skills Demonstrated
 - Python programming fundamentals  
@@ -79,5 +79,3 @@ The main Python script is included in the `data` folder of this repository:
 
 ## Author
 **Sofia Strisch**  
-Toronto, Canada  
-Registered Nurse | Data & Health Analytics Enthusiast
